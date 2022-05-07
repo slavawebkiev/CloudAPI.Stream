@@ -39,7 +39,10 @@ High-quality cloud service for text translation. 100+ Languages <a href="https:/
   $answer = $CAS->translate('en','fr','Hi bro!');
 </code>
 </p>
-
+<p><code>
+  translate(FROM_LAGUAGE_CODE,TO_LAGUAGE_CODE,TEXT);
+</code>
+</p>
 <h3>Answer</h3>
 <p>
 <code>

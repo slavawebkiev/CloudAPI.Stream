@@ -1,5 +1,6 @@
 # CloudAPI.Stream
 High-quality cloud service for text translation. 100+ Languages <a href="https://cloudapi.stream/" target="_blank">https://cloudapi.stream/</a>
+<p><img src="cloudapi.stream.png" alt="Cloud Translation API"></p>
 <h2>Class initialization</h2>
 <code>
   $CAS = new CAS;

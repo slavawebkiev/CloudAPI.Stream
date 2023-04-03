@@ -10,7 +10,8 @@ High-quality cloud service for text translation. 100+ Languages <a href="https:/
   $CAS->set_key('******-*****-*****-*****');
 </code></p>
 <p>Visit to website <a href="https://cloudapi.stream/dev/sign-in" target="_blank">https://cloudapi.stream/dev/sign-in</a></p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/YPSVJbHkQTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<h2>Video on YouTube</h2>
+<p>https://www.youtube.com/embed/YPSVJbHkQTc</p>
 <h2>Get a list of languages available for translation</h2>
 <code>
   $answer = $CAS->langs();

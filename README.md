@@ -11,7 +11,7 @@ High-quality cloud service for text translation. 100+ Languages <a href="https:/
 </code></p>
 <p>Visit to website <a href="https://cloudapi.stream/dev/sign-in" target="_blank">https://cloudapi.stream/dev/sign-in</a></p>
 <h2>Video on YouTube</h2>
-<p>https://www.youtube.com/embed/YPSVJbHkQTc</p>
+<p>https://www.youtube.com/YPSVJbHkQTc</p>
 <h2>Get a list of languages available for translation</h2>
 <code>
   $answer = $CAS->langs();

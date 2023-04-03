@@ -72,3 +72,6 @@ High-quality cloud service for text translation. 100+ Languages <a href="https:/
 <p>Our API also provides powerful tools for monitoring and analyzing translations, as well as tools for modifying and maintaining translations. Our API makes it easy to integrate translation into your applications and projects, providing a simple and efficient way to translate text into multiple languages.</p>
 
 <p>Join our multilingual text translation cloud API service and get access to powerful tools for text translation and translation analysis. Our API provides a fast and secure way to translate text into multiple languages and supports many formats. Join us right now and start using our API service to translate text into different languages!</p>
+<h3>OpenCart Extension based on CloudApi.Stream</h3>
+<p>OpenCart 3.x.x.x https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=44906</p>
+<p>OpenCart 4.x.x.x https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=44904</p>

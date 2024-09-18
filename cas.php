@@ -16,18 +16,18 @@ class CAS {
 	public function translate( $from = '', $to = '', $text = '' ){
 		if( $this->check_key() == false ) return ['result'=>false, 'desc'=>'Not set key'];
 		if( $from == '' || $to == '' || trim( $text ) == '' ) return ['result'=>false, 'desc'=>'Incomplete query'];
-		return $this->query( 'v2', [ 'from'=>$from, 'to'=>$to, 'text'=> $text ] );
+		return $this->query( 'Translation', [ 'from'=>$from, 'to'=>$to, 'text'=> $text ] );
 	}
 
 	public function langs(){
 		if( $this->check_key() == false ) return ['result'=>false];
-		return $this->query( 'v2/langs' );
+		return $this->query( 'GetLangs' );
 	}
 
 	public function query( $path = 'v2', $data = false ) {
 		$curl = curl_init();
 		curl_setopt_array($curl, [
-			CURLOPT_URL => "https://api.cloudapi.stream/" . $path,
+			CURLOPT_URL => "https://api.cloudapi.stream:8443/" . $path,
 			CURLOPT_RETURNTRANSFER => true,
 			CURLOPT_FOLLOWLOCATION => true,
 			CURLOPT_ENCODING => "",
